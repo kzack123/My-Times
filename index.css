@@ -65,11 +65,6 @@ a {
   margin-right: 35px;
 }
 
-#small {
-  width: 240px;
-  margin-right: 35px;
-}
-
 #main {
   display: flex;
   background-image: url('images/img-story-main.png');
@@ -120,4 +115,28 @@ a {
   background-image: url('images/img-story-1.png');
   justify-content: center;
   height: 300px;
+}
+
+#small {
+  width: 240px;
+  margin-right: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#small h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#small li {
+  padding: 10px 80px 10px 30px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
 }
