@@ -2,23 +2,26 @@
   margin: 0;
   padding: 0;
 }
-/*
+
 div {
-  border: 1px solid black;
+/*  border: 1px solid black; */
 }
-*/
+
 header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
   height: 75px;
-  margin-top: 10px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }
 
 #nav {
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 .flex_item {
@@ -40,12 +43,16 @@ a {
   color: black;
 }
 
+
+
 #content {
   display: flex;
   justify-content: flex-start;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 100px;
+  margin-bottom: 100px;
 }
 
 #large {
@@ -75,6 +82,15 @@ a {
   font-weight: bold;
   font-size: 40px;
   color: white;
+}
+
+#substorys {
+  display: flex;
+  justify-content: space-around;
+}
+
+.substory {
+  width: 290px;
 }
 
 #sub {
