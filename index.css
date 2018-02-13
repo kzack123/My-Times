@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  border: 1px solid black;
+}
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  height: 75px;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex_item {
+  display: inline-flex;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+p {
+  text-align: center;
+  color: MediumAquamarine;
+}
+
+a {
+  color: black;
+}
