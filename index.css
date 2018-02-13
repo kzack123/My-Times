@@ -16,7 +16,7 @@ header {
   margin-top: 10px;
 }
 
-.container {
+#nav {
   display: flex;
   justify-content: space-between;
 }
@@ -31,11 +31,34 @@ li {
   margin-right: 20px;
 }
 
-p {
+.flex_item p {
   text-align: center;
   color: MediumAquamarine;
 }
 
 a {
   color: black;
+}
+
+#content {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#large {
+  width: 630px;
+  margin-right: 35px;
+}
+
+#medium {
+  width: 300px;
+  margin-right: 35px;
+}
+
+#small {
+  width: 240px;
+  margin-right: 35px;
 }
