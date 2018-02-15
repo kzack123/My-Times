@@ -67,7 +67,7 @@ a {
 
 #main {
   display: flex;
-  background-image: url('images/img-story-main.png');
+  background-image: url('./Images/img-story-main.png');
   justify-content: flex-start;
   height: 300px;
 }
@@ -91,14 +91,14 @@ a {
 
 #sub {
   display: flex;
-  background-image: url('images/img-story-2.png');
+  background-image: url('./Images/img-story-2.png');
   justify-content: center;
   height: 300px;
 }
 
 #subtwo {
   display: flex;
-  background-image: url('images/img-story-3.png');
+  background-image: url('./Images/img-story-3.png');
   justify-content: center;
   height: 300px;
 }
@@ -114,7 +114,7 @@ a {
 
 #subthree {
   display: flex;
-  background-image: url('images/img-story-1.png');
+  background-image: url('./Images/img-story-1.png');
   justify-content: center;
   height: 300px;
 }
